@@ -25,8 +25,6 @@ pub extern fn rust_main() {
         print_str(b"Hello, world!", 0x1f, 1988);
     };
 
-    panic!();
-    
     // never return
     loop{}
 }
