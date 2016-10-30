@@ -7,7 +7,9 @@ authors = ["Cameron Derwin <camderwin@gmail.com>"]
 crate-type = ["staticlib"]
 
 [dependencies]
+multiboot2 = "0.1.0"
 rlibc = "1.0.0"
+spin = "0.4"
 
 # The development profile, used for `cargo build`.
 [profile.dev]
